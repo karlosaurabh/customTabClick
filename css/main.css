@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{padding:0px; margin:0px; font-family: 'Oswald', sans-serif;}
+
+.clearfix{clear:both;}
+
+.container{ padding:15px; width:97%; margin:0 auto !important; display:inline-block;}
+
+.cont-12{width:100%; float:left; }
+.cont-6{width:50%; float:left; }
+.cont-4{width:60%; float:left;}
+.cont-2{width:40%; float:left;}
+.cont-3{width: 17%; float: left;}
+
+.colorIndicator{text-align:center;}
+.colorIndicator ul li{display:inline-block;}
+.colorIndicator ul li a{color: #f00;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+	cursor:pointer;
+	}
+	
+	.colorIndicator ul li.gray a{background: #969696;}
+	.colorIndicator ul li.black a{background: #191919;}
+	.colorIndicator ul li.red a{background: #e70727;}
+	.colorIndicator ul li.blue a{background: #0955f1;}
+	.colorIndicator ul li.diff a{background: #3f2a02;}
+	.sub_txt{color:#C1BEBE; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:13px; text-align:center;}
+	 
+.active{box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.2); border-radius:50%;}
+.linksTxt{
+    color: #1A67D0;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin-top: 15px;
+}
+.colorIndicators{margin:0px;}
+
+/*================== PROGRESS ===================*/
+.otherCarModels{margin-top:5%;}
+.otherCarModels .modelCarBox{ border:1px solid #f1f1f1;}
+.modelCarBox{text-align:center;padding-top:5px; border-radius:10px; overflow:hidden; margin-left:15px;}
+.modelCarBox p{font-size: 14px;margin-top: 5px;}
+.modelCarBox span{background: #13a2e4;
+    font-size: 20px;
+    display: block;
+    color: white;}
+
+/*================== PROGRESS ===================*/
+
+.progressTxt{margin-bottom:0px;}
+.myProgress {
+  width: 98%;
+  background-color: #fff3a4;
+   border-radius: 20px;
+}
+
+.myBar {
+  width: 40%;
+   text-align: center;
+   font-size:12px;
+  height: 15px;
+    background-color: #fedd02;
+    border-radius: 20px;
+}
+
+.gauge{margin-top: 45%;}
+.gauge .overRatingCont{margin-top: 45%; position:relative;}
+.gauge .totalAvg{font-size: 57px; text-align: center;  color:#000;}
+.gauge .txtSub{font-size: 20px;
+    text-align: center;
+    color: #9e9e9e;
+    position: absolute;
+    bottom: -76px;
+    left: 25%;}
+
+
+
+.gauge .gauge-arrow, .gauge .gauge-arrow:before {
+    position: absolute;
+    display: inline-block;
+    background: #2b2b2b !important;
+    left: 50%;
+    border-radius: 50% 50% 50% 50% / 50% 50% 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
